@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+  --orange: #FFAE7F;
+  --blue: #1A5BBF;
+  --brightorange: #FF7804;
+}
+
+.spinner{
+    position:absolute;
+    top:50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.welc::first-letter{
+  color: #ff0000;
+  font-weight: bold;
+  font-family: cu
+}
+
+.welcp::first-line{
+  color: #00ff00
+}
+
+.Footer{
+  background-color: var(--blue)
+
+}
+
+.abt{
+  color: var(--blue)
+  
+}
+
+.map{
+  width: 100%;
+  max-height: 50vh;
+  object-fit: cover;
+} 
